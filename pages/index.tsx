@@ -10,7 +10,7 @@ const classes = {
 } as Record<string, React.CSSProperties>;
 
 const Component = () => {
-  return <></>;
+  return <div>Hello!</div>;
 };
 
 export default Component;
