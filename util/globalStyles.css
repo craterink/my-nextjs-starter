@@ -1,0 +1,54 @@
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This is optional and helps with performance */
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* SemiBold is often 600 */
+    font-style: normal;
+    font-display: swap; /* This is optional and helps with performance */
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+    background-color: #F4F4F4;
+    height:100%;
+    margin:0;
+    font-family:'Inter', sans-serif;
+}
+
+input {
+    font-family:'Inter', sans-serif;
+}
+
+#__next {
+    height:100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+@keyframes shadowPulse {
+    33% {
+      background: #FFF;
+      box-shadow: -16px 0 #aaa, 16px 0 #FFF;
+    }
+    66% {
+      background: #aaa;
+      box-shadow: -16px 0 #FFF, 16px 0 #FFF;
+    }
+    100% {
+      background: #FFF;
+      box-shadow: -16px 0 #FFF, 16px 0 #aaa;
+    }
+}
